@@ -20,6 +20,7 @@ for(int i=0;i<=4;i++){
     v1.push_back(element);
 }
 
+vector<int>v2(5,1000);
 
 //Insertion in vector
 
@@ -31,7 +32,10 @@ v1.insert(iter,749);
 v1.insert(itr,4,99);    //first param itr second no of copies  for '99'
 
 display(v1);
+for(int i=0;i<v2.size();i++){
 
+cout<<v2[i]<<"\t";
+}
 return 0;
 
 }
