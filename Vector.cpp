@@ -26,9 +26,9 @@ for(int i=0;i<=4;i++){
 display(v1);
 cout<<endl;
 vector<int>::iterator iter=v1.begin();     //Creatting Iterator
-vector<int>::iterator itr=v1.end();     //Creatting Iterator
+vector<int>::iterator itr=v1.end()+1;     //Creatting Iterator
 v1.insert(iter,749);
-v1.insert(itr,554);
+v1.insert(itr,4,99);    //first param itr second no of copies  for '99'
 
 display(v1);
 
